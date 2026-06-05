@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Fakhreddin (Dean) Emami"
 title_separator          : "-"
 name                     : &name "Fakhreddin (Dean) Emami"
-description              : &description "FEA simulation engineer focused on computational mechanics, ML surrogates, optimization, and HPC workflows."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Researcher at the intersection of artificial intelligence and computational mechanics."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://fakhreddinemami.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Fakhreddin (Dean) Emami"
   pronouns         : # example: "she/her"  
-  bio              : "FEA Simulation Engineer | FEA & AI Integration | HPC/ML Surrogates"
+  bio              : "AI for Computational Mechanics | Agentic AI | FEA & Scientific Machine Learning"
   location         : "Columbia, South Carolina"
-  employer         : "University of South Carolina"
+  employer         : "Purdue University"
   uri              : # URL
   email            : "fakhreddinemami@gmail.com" 
 

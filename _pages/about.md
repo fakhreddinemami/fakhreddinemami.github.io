@@ -7,19 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-I am an FEA Simulation Engineer and Ph.D. candidate in Mechanical Engineering at the University of South Carolina, focused on computational solid mechanics, high-fidelity finite element analysis, optimization, and data-driven modeling.
+I am a researcher at Purdue University working at the intersection of artificial intelligence and computational mechanics. My research focuses on developing next-generation AI systems that can autonomously reason, learn, and make decisions within scientific and engineering workflows.
 
-My work connects nonlinear material modeling, structural and stress analysis, scientific machine learning, and high-performance computing. I develop large-scale computational and surrogate-modeling workflows for complex materials and structural systems, including NASA- and DARPA-funded research in architected materials and inverse calibration of constitutive models.
+My vision is to transform computational mechanics from a largely human-driven process into an intelligent, collaborative framework where AI agents can assist researchers in modeling, simulation, optimization, and scientific discovery. By combining physics-based simulations with machine learning, large language models, and agentic AI, I aim to develop systems capable of accelerating engineering analysis, design exploration, and computational decision-making.
 
-I have executed more than one million high-fidelity ABAQUS simulations using Python and Fortran automation, spanning static, dynamic, buckling, modal, thermal, submodeling, and mesh-convergence workflows. I also build CPU/GPU-accelerated pipelines with Python, CUDA/CuPy, PyTorch, and HPC scheduling tools for reproducible simulation, analysis, and post-processing.
+My technical expertise spans computational solid mechanics, multiphysics modeling, finite element analysis (FEA), computational fluid dynamics (CFD), inverse problems, optimization, and scientific machine learning. I develop scalable computational frameworks that integrate physics-based models, surrogate modeling, high-performance computing (HPC), and AI to address complex challenges across engineering and applied sciences.
 
-Selected areas of focus include:
+My previous research has contributed to NASA and Department of Defense (DARPA/DoD) projects involving architected materials, constitutive model identification, inverse characterization, and computational engineering. These efforts have focused on developing advanced simulation and data-driven methodologies for understanding and predicting the behavior of complex material and structural systems.
 
-- Finite element analysis and nonlinear material modeling
-- Thermo-mechanical simulation and structural/stress analysis
-- Inverse calibration of metal plasticity models
-- Scientific machine learning, surrogate modeling, and uncertainty quantification
-- HPC/GPU workflows for large-scale simulation campaigns
-- Architected materials, lattice structures, and mechanics-informed design optimization
-
-Recent work includes AI-enabled surrogate error functions trained on large synthetic FEA datasets, a 3D heterogeneous specimen for single-test inverse calibration of plasticity parameters, and optimized ceramic lattice materials for Venus-level mechanical and thermal environments.
+At Purdue, my research is expanding toward Agentic AI for Computational Mechanics, where I investigate how autonomous AI systems can interact with simulation tools, scientific data, and engineering knowledge to automate tasks traditionally performed by experts. The long-term goal is to create intelligent engineering agents capable of planning computational experiments, generating and validating models, interpreting simulation results, and accelerating scientific discovery in mechanics and beyond.
