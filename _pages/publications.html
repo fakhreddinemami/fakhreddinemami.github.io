@@ -11,6 +11,36 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+  .publication__teaser {
+    float: left;
+    width: min(210px, 38%);
+    margin: 0.25rem 1rem 0.75rem 0;
+    border: 1px solid #e5e5e5;
+    background: #050505;
+  }
+
+  .publication__teaser img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .archive__item::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media (max-width: 600px) {
+    .publication__teaser {
+      float: none;
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+</style>
+
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
@@ -31,5 +61,4 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
 
