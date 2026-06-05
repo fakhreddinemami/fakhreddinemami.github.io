@@ -30,6 +30,16 @@ author_profile: true
     aspect-ratio: 4 / 3;
     border: 1px dashed #c8c8c8;
     background: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .research-project__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 
   .research-project h2 {
@@ -80,7 +90,9 @@ author_profile: true
   </section>
 
   <section class="research-project">
-    <div class="research-project__image"></div>
+    <div class="research-project__image">
+      <img src="/images/projects/hierarchical-honeycomb.svg" alt="Hierarchical honeycomb graphical abstract">
+    </div>
     <div>
       <span class="research-project__tag">Hierarchical honeycombs | optimization | experiments</span>
       <h2>2D Hierarchical Honeycombs</h2>
