@@ -11,11 +11,14 @@ main:
   - title: "About"
     url: /
 
-  - title: "Publications"
+  - title: "Publication"
     url: /publications/
+
+  - title: "Patent"
+    url: /patents/
 
   - title: "Projects"
     url: /portfolio/
     
-  - title: "CV"
+  - title: "Resume"
     url: /cv/

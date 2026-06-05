@@ -127,18 +127,18 @@
   "references": [],
   "publications": [
     {
-      "name": "Making Latent Physics Explicit: An AI-Enabled Surrogate Error Function",
-      "publisher": "Ongoing",
-      "releaseDate": "2026-01-01",
-      "website": "",
-      "summary": "Emami & Gross."
-    },
-    {
       "name": "AI-Enhanced Inverse Calibration of Plasticity Models Using a 3D Heterogeneous Specimen",
       "publisher": "Ongoing",
       "releaseDate": "2026-01-02",
       "website": "",
       "summary": "Emami et al."
+    },
+    {
+      "name": "Hierarchical Honeycombs with Improved Mechanical Properties",
+      "publisher": "Ongoing",
+      "releaseDate": "2026-01-03",
+      "website": "https://scholar.google.com/citations?user=_UmzBzAAAAAJ&hl=en",
+      "summary": "Emami & Gross."
     },
     {
       "name": "A New Performance Indicator for Heterogeneous Elastoplastic Material Test Specimens",
