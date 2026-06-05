@@ -6,6 +6,8 @@ permalink: /publication/composite-metal-deck-slabs-impact-ml
 excerpt: "Structures work combining finite element modeling and machine learning for impact-loaded composite metal deck slabs."
 date: 2023-01-03
 venue: "Structures"
+link: "https://doi.org/10.24200/sci.2023.59582.6321"
+paperurl: "https://doi.org/10.24200/sci.2023.59582.6321"
 citation: "Emami, F. & Kabir. (2023). &quot;Strength Prediction of Composite Metal Deck Slabs Under Free Drop Impact Loading Using FEM and Machine Learning Approach.&quot; <i>Structures</i>."
 ---
 

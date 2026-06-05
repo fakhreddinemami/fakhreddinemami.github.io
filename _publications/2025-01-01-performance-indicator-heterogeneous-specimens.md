@@ -6,6 +6,8 @@ permalink: /publication/performance-indicator-heterogeneous-specimens
 excerpt: "A mechanics-focused performance indicator for heterogeneous elastoplastic material test specimens."
 date: 2025-01-01
 venue: "International Journal of Mechanical Sciences"
+link: "https://doi.org/10.1016/j.ijmecsci.2026.111271"
+paperurl: "https://doi.org/10.1016/j.ijmecsci.2026.111271"
 citation: "Emami, F. et al. (2025). &quot;A New Performance Indicator for Heterogeneous Elastoplastic Material Test Specimens.&quot; <i>International Journal of Mechanical Sciences</i>."
 ---
 

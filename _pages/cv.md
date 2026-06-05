@@ -51,7 +51,7 @@ Technical Skills
 
 Patent
 ======
-- Emami & Gross, "Ceramic kelvin foam with geometry optimized for hydrostatic loading," US Patent 12,415,594.
+- Emami & Gross, ["Ceramic kelvin foam with geometry optimized for hydrostatic loading"](https://patentsgazette.uspto.gov/week37/OG/html/1538-3/US12415594-20250916.html), US Patent 12,415,594.
 
 Certification
 ======

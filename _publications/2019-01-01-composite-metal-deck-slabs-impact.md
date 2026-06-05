@@ -6,6 +6,8 @@ permalink: /publication/composite-metal-deck-slabs-impact
 excerpt: "Journal of Structures work on composite metal deck slab performance under impact loading."
 date: 2019-01-01
 venue: "Journal of Structures"
+link: "https://doi.org/10.1016/j.istruc.2019.02.015"
+paperurl: "https://doi.org/10.1016/j.istruc.2019.02.015"
 citation: "Emami, F. & Kabir. (2019). &quot;Performance of Composite Metal Deck Slabs Under Impact Loading.&quot; <i>Journal of Structures</i>."
 ---
 
