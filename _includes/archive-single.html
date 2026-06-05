@@ -28,22 +28,13 @@
 
     {% if include.type != "grid" and post.collection == 'publications' and post.header.teaser %}
       <div class="archive__item-teaser publication__teaser">
-        {% if teaser contains ".pdf" %}
-          <object
-            data="{% if teaser contains "://" %}{{ teaser }}{% else %}{{ teaser | prepend: "/images/" | prepend: base_path }}{% endif %}#toolbar=0&navpanes=0&scrollbar=0"
-            type="application/pdf"
-            aria-label="{{ title }} graphical abstract">
-            <a href="{% if teaser contains "://" %}{{ teaser }}{% else %}{{ teaser | prepend: "/images/" | prepend: base_path }}{% endif %}">View graphical abstract</a>
-          </object>
-        {% else %}
-          <img src=
-            {% if teaser contains "://" %}
-              "{{ teaser }}"
-            {% else %}
-              "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-            {% endif %}
-            alt="">
-        {% endif %}
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
       </div>
     {% endif %}
 
