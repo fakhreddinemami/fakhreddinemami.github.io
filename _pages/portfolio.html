@@ -21,18 +21,6 @@ author_profile: true
     border-bottom: 1px solid #e5e5e5;
   }
 
-  .research-project--feature {
-    display: block;
-    padding: 2.25rem 0;
-  }
-
-  .research-project__feature-body {
-    display: grid;
-    grid-template-columns: minmax(260px, 0.92fr) minmax(320px, 1.08fr);
-    gap: 2rem;
-    align-items: start;
-  }
-
   .research-project:first-child {
     padding-top: 0;
   }
@@ -60,12 +48,6 @@ author_profile: true
     font-size: 1.15rem;
   }
 
-  .research-project--feature h2 {
-    font-size: 1.75rem;
-    line-height: 1.15;
-    margin-bottom: 1rem;
-  }
-
   .research-project p {
     margin-bottom: 0.75rem;
   }
@@ -77,42 +59,9 @@ author_profile: true
     font-weight: 600;
   }
 
-  .honeycomb-visuals {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.75rem;
-  }
-
-  .honeycomb-panel {
-    margin: 0;
-  }
-
-  .honeycomb-panel--wide {
-    grid-column: 1 / -1;
-  }
-
-  .honeycomb-panel img {
-    display: block;
-    width: 100%;
-    background: #050505;
-    border: 1px solid #e4e4e4;
-  }
-
-  .honeycomb-panel figcaption {
-    margin-top: 0.25rem;
-    color: #6b7280;
-    font-size: 0.74rem;
-    line-height: 1.25;
-  }
-
   @media (max-width: 700px) {
-    .research-project,
-    .research-project__feature-body {
+    .research-project {
       grid-template-columns: 1fr;
-    }
-
-    .research-project--feature h2 {
-      font-size: 1.35rem;
     }
   }
 </style>
@@ -140,29 +89,16 @@ author_profile: true
     </div>
   </section>
 
-  <section class="research-project research-project--feature">
-    <div class="research-project__feature-body">
-      <div>
+  <section class="research-project">
+    <a class="research-project__image" href="/images/projects/hierarchical-honeycomb.svg" target="_blank" rel="noopener">
+      <img src="/images/projects/hierarchical-honeycomb.svg" alt="Hierarchical honeycomb graphical abstract">
+    </a>
+    <div>
       <span class="research-project__tag">Hierarchical honeycombs | optimization | experiments</span>
       <h2>2D Hierarchical Honeycombs</h2>
       <p>Honeycombs are widely used because they are light, efficient, and manufacturable, but their bending-dominated cell walls limit how much stiffness and strength can be achieved at very low density. Hierarchy offers a way to break that limitation by adding structure inside the structure.</p>
       <p>In this work, a solid skin and triangular lattice core are coordinated into a hierarchical honeycomb architecture. Finite element modeling and machine learning are used to explore the design space, while the mechanics of global instability, local instability, material failure, and skin-core interface effects guide the optimization.</p>
       <p>The study shows that careful coordination across length scales can produce multi-fold improvements in mechanical performance. Experiments on fabricated specimens validate the numerical predictions and demonstrate that hierarchy can turn a conventional honeycomb into a stronger and stiffer lightweight material.</p>
-      </div>
-      <div class="honeycomb-visuals" aria-label="Hierarchical honeycomb research visuals">
-        <figure class="honeycomb-panel">
-          <img src="/images/projects/honeycomb-optimization.png" alt="Finite element contour result for optimized hierarchical honeycomb">
-          <figcaption>FEA-guided optimization</figcaption>
-        </figure>
-        <figure class="honeycomb-panel">
-          <img src="/images/projects/honeycomb-validation.png" alt="Hierarchical honeycomb validation plot">
-          <figcaption>Prediction and validation</figcaption>
-        </figure>
-        <figure class="honeycomb-panel honeycomb-panel--wide">
-          <img src="/images/projects/honeycomb-digital-modeling.png" alt="Full hierarchical honeycomb digital model">
-          <figcaption>Digital modeling of the hierarchical honeycomb specimen</figcaption>
-        </figure>
-      </div>
     </div>
   </section>
 
