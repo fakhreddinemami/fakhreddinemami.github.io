@@ -11,11 +11,8 @@ main:
   - title: "About"
     url: /
 
-  - title: "Publication"
+  - title: "Publication & Patent"
     url: /publications/
-
-  - title: "Patent"
-    url: /patents/
 
   - title: "Projects"
     url: /portfolio/

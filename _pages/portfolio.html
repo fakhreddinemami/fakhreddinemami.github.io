@@ -7,7 +7,113 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+  .research-projects {
+    margin-top: 1.5rem;
+  }
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+  .research-project {
+    display: grid;
+    grid-template-columns: minmax(180px, 32%) 1fr;
+    gap: 1.25rem;
+    align-items: start;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .research-project:first-child {
+    padding-top: 0;
+  }
+
+  .research-project__image {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    border: 1px dashed #c8c8c8;
+    background: #f7f7f7;
+  }
+
+  .research-project h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.15rem;
+  }
+
+  .research-project p {
+    margin-bottom: 0.75rem;
+  }
+
+  .research-project__tag {
+    display: inline-block;
+    margin-bottom: 0.6rem;
+    color: #c2185b;
+    font-weight: 600;
+  }
+
+  @media (max-width: 700px) {
+    .research-project {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="research-projects">
+  <section class="research-project">
+    <div class="research-project__image"></div>
+    <div>
+      <span class="research-project__tag">DARPA | Inverse identification | 3D heterogeneous specimen</span>
+      <h2>AI-Enhanced Inverse Identification of Metal Plasticity Constitutive Model Parameters</h2>
+      <p>This project develops a mechanics-guided framework for identifying anisotropic metal plasticity parameters from rich heterogeneous strain fields. Instead of relying on many conventional tests that each produce limited and nearly homogeneous loading paths, the work uses optimized heterogeneous specimens to generate diverse multiaxial deformation states in a single experiment.</p>
+      <p>The approach combines strain-space analysis, finite element modeling, shape optimization, Digital Image Correlation, and data-driven evaluation metrics. A key outcome is the first 3D heterogeneous specimen concept, designed to improve load-state diversity and measurement efficiency for inverse calibration of constitutive models.</p>
+    </div>
+  </section>
+
+  <section class="research-project">
+    <div class="research-project__image"></div>
+    <div>
+      <span class="research-project__tag">NASA | Venus exploration | architected materials</span>
+      <h2>Buoyant Architected Materials for Venus Exploration</h2>
+      <p>This project investigates lightweight ceramic truss lattice materials for a Venus aerial platform operating near the planet's surface, where extreme temperature and pressure create severe requirements for strength, insulation, and density. The work identifies conditions where ceramic lattices can achieve better-than-linear strength scaling with relative density.</p>
+      <p>Using analytical scaling laws, finite element models, and shape optimization, the study develops silicon-carbide Kelvin cell designs with variable cross-section struts. The optimized architectures are designed to survive Venus-level hydrostatic loading while maintaining low thermal conductivity and providing buoyancy.</p>
+    </div>
+  </section>
+
+  <section class="research-project">
+    <div class="research-project__image"></div>
+    <div>
+      <span class="research-project__tag">Hierarchical honeycombs | optimization | experiments</span>
+      <h2>2D Hierarchical Honeycombs</h2>
+      <p>This project develops hierarchical honeycombs with improved mechanical properties through a mechanics-guided design framework. The architecture combines a solid skin with a triangular lattice core, allowing mechanical performance to be tuned across multiple length scales.</p>
+      <p>Finite element modeling and machine learning are used to evaluate and optimize in-plane stiffness and strength while accounting for global instability, local instability, material failure, and skin-core interface effects. Experimental validation confirms that optimized hierarchical architectures can substantially improve stiffness and strength compared with conventional honeycombs.</p>
+    </div>
+  </section>
+
+  <section class="research-project">
+    <div class="research-project__image"></div>
+    <div>
+      <span class="research-project__tag">2D lattices | nodal geometry | stress concentration</span>
+      <h2>Nodal Geometry in 2D Triangular Lattices</h2>
+      <p>This project studies how nodal fillets affect the mechanical performance of equilateral triangular lattices. Although triangular lattices are attractive because of their stretching-dominated load paths and high strength-to-weight ratios, their performance is strongly affected by local geometry at the nodes.</p>
+      <p>High-fidelity finite element simulations are used to characterize stiffness, buckling resistance, stress concentration, and yield strength across a broad range of relative densities and fillet radii. The results identify when fillets reduce stiffness, when they improve stability, and how optimal nodal geometries can improve yield strength while preserving efficient load transfer.</p>
+    </div>
+  </section>
+
+  <section class="research-project">
+    <div class="research-project__image"></div>
+    <div>
+      <span class="research-project__tag">3D lattices | hierarchical beams | lightweight structures</span>
+      <h2>3D Hierarchical Truss Lattice Materials</h2>
+      <p>This project explores Warren-truss-inspired hierarchical beams as building blocks for three-dimensional hierarchical truss lattice materials. The work investigates how axial and inclined struts arranged in single- and double-laced Warren patterns can tune the elastic modulus, bending stiffness, shear stiffness, and failure limits of lightweight beam architectures.</p>
+      <p>Analytical and finite element models are used to map a broad design space, including parent material failure and multiple buckling modes. When implemented inside Kelvin and octet lattices, these hierarchical beams can enhance load-bearing capacity at low relative density and push stiffness and strength beyond conventional first-order lattice scaling relationships.</p>
+    </div>
+  </section>
+
+  <section class="research-project">
+    <div class="research-project__image"></div>
+    <div>
+      <span class="research-project__tag">Impact loading | composite slabs | FEM and machine learning</span>
+      <h2>Performance of Composite Metal Deck Slabs Under Impact Loading</h2>
+      <p>This project examines the impact response of composite metal deck slabs, with an emphasis on understanding strength, failure modes, and structural performance under free-drop loading. The work combines finite element modeling with data-driven prediction methods to study how slab geometry, material properties, and impact conditions affect performance.</p>
+      <p>The project connects structural engineering, impact mechanics, and machine learning by using simulation data to support strength prediction and design evaluation for composite slab systems subjected to dynamic loading.</p>
+    </div>
+  </section>
+</div>
