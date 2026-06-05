@@ -59,6 +59,27 @@ author_profile: true
     font-weight: 600;
   }
 
+  .research-project--detail {
+    display: block;
+  }
+
+  .research-project--detail h2 {
+    font-size: 1.35rem;
+  }
+
+  .research-project__large-figure {
+    margin: 1.25rem 0 0;
+  }
+
+  .research-project__large-figure img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #e4e4e4;
+    background: #ffffff;
+  }
+
   @media (max-width: 700px) {
     .research-project {
       grid-template-columns: 1fr;
@@ -89,17 +110,15 @@ author_profile: true
     </div>
   </section>
 
-  <section class="research-project">
-    <a class="research-project__image" href="/projects/hierarchical-honeycombs/">
+  <section class="research-project research-project--detail">
+    <span class="research-project__tag">Hierarchical honeycombs | optimization | experiments</span>
+    <h2>2D Hierarchical Honeycombs</h2>
+    <p>Honeycombs are widely used because they are light, efficient, and manufacturable, but their bending-dominated cell walls limit how much stiffness and strength can be achieved at very low density. Hierarchy offers a way to break that limitation by adding structure inside the structure.</p>
+    <p>In this work, a solid skin and triangular lattice core are coordinated into a hierarchical honeycomb architecture. Finite element modeling and machine learning are used to explore the design space, while the mechanics of global instability, local instability, material failure, and skin-core interface effects guide the optimization.</p>
+    <p>The study shows that careful coordination across length scales can produce multi-fold improvements in mechanical performance. Experiments on fabricated specimens validate the numerical predictions and demonstrate that hierarchy can turn a conventional honeycomb into a stronger and stiffer lightweight material.</p>
+    <figure class="research-project__large-figure">
       <img src="/images/projects/hierarchical-honeycomb.svg" alt="Hierarchical honeycomb graphical abstract">
-    </a>
-    <div>
-      <span class="research-project__tag">Hierarchical honeycombs | optimization | experiments</span>
-      <h2><a href="/projects/hierarchical-honeycombs/">2D Hierarchical Honeycombs</a></h2>
-      <p>Honeycombs are widely used because they are light, efficient, and manufacturable, but their bending-dominated cell walls limit how much stiffness and strength can be achieved at very low density. Hierarchy offers a way to break that limitation by adding structure inside the structure.</p>
-      <p>In this work, a solid skin and triangular lattice core are coordinated into a hierarchical honeycomb architecture. Finite element modeling and machine learning are used to explore the design space, while the mechanics of global instability, local instability, material failure, and skin-core interface effects guide the optimization.</p>
-      <p>The study shows that careful coordination across length scales can produce multi-fold improvements in mechanical performance. Experiments on fabricated specimens validate the numerical predictions and demonstrate that hierarchy can turn a conventional honeycomb into a stronger and stiffer lightweight material.</p>
-    </div>
+    </figure>
   </section>
 
   <section class="research-project">
