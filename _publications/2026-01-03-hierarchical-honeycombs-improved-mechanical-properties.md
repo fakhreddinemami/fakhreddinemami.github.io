@@ -9,7 +9,7 @@ venue: "Ongoing"
 link: "https://scholar.google.com/citations?user=_UmzBzAAAAAJ&hl=en"
 citation: "Emami, F. & Gross. (2026). &quot;Hierarchical Honeycombs with Improved Mechanical Properties.&quot; Ongoing."
 header:
-  teaser: publications/single-honeycomb.png
+  teaser: publications/single-honeycomb.pdf
 ---
 
 Ongoing research on hierarchical honeycombs with improved mechanical properties.
