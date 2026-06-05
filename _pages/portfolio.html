@@ -86,26 +86,20 @@ author_profile: true
 </style>
 
 <div class="research-projects">
-  <section class="research-project">
-    <div class="research-project__image"></div>
-    <div>
-      <span class="research-project__tag">DARPA | Inverse identification | 3D heterogeneous specimen</span>
-      <h2>AI-Enhanced Inverse Identification of Metal Plasticity Constitutive Model Parameters</h2>
-      <p>Accurate metal forming simulations depend on constitutive models that can reproduce complex, multiaxial deformation. The usual calibration path is slow: many separate tests, each designed around a narrow loading condition, are needed before a model can be trusted in realistic forming simulations.</p>
-      <p>This work asks a different question: can one carefully designed specimen create enough deformation diversity to replace a large testing campaign? The project combines strain-space analysis, finite element modeling, shape optimization, Digital Image Correlation, and data-driven evaluation metrics to design heterogeneous specimens for inverse calibration.</p>
-      <p>The result is a first 3D heterogeneous specimen concept that produces rich strain fields for identifying anisotropic metal plasticity parameters. The framework improves load-state diversity and measurement efficiency, creating a path toward faster, more informative calibration of constitutive models.</p>
-    </div>
+  <section class="research-project research-project--detail">
+    <span class="research-project__tag">DARPA | Inverse identification | 3D heterogeneous specimen</span>
+    <h2>AI-Enhanced Inverse Identification of Metal Plasticity Constitutive Model Parameters</h2>
+    <p>Accurate metal forming simulations depend on constitutive models that can reproduce complex, multiaxial deformation. The usual calibration path is slow: many separate tests, each designed around a narrow loading condition, are needed before a model can be trusted in realistic forming simulations.</p>
+    <p>This work asks a different question: can one carefully designed specimen create enough deformation diversity to replace a large testing campaign? The project combines strain-space analysis, finite element modeling, shape optimization, Digital Image Correlation, and data-driven evaluation metrics to design heterogeneous specimens for inverse calibration.</p>
+    <p>The result is a first 3D heterogeneous specimen concept that produces rich strain fields for identifying anisotropic metal plasticity parameters. The framework improves load-state diversity and measurement efficiency, creating a path toward faster, more informative calibration of constitutive models.</p>
   </section>
 
-  <section class="research-project">
-    <div class="research-project__image"></div>
-    <div>
-      <span class="research-project__tag">NASA | Venus exploration | architected materials</span>
-      <h2>Buoyant Architected Materials for Venus Exploration</h2>
-      <p>Exploring Venus near the surface is one of the hardest environments in planetary science. Any long-duration platform must survive crushing pressure and extreme temperature while staying light enough to remain buoyant in the dense atmosphere.</p>
-      <p>The central idea of this work is to use architected ceramic lattices as structural thermal insulators. By combining analytical scaling laws, high-resolution finite element models, and shape optimization, the project studies silicon-carbide Kelvin cells with variable cross-section struts under Venus-like hydrostatic loading.</p>
-      <p>The optimized designs reveal a better-than-linear strength scaling mechanism and show that ceramic truss lattices can provide strength, low density, and low thermal conductivity at the same time. The outcome is a materials design strategy for buoyant aerial platforms intended for extreme planetary environments.</p>
-    </div>
+  <section class="research-project research-project--detail">
+    <span class="research-project__tag">NASA | Venus exploration | architected materials</span>
+    <h2>Buoyant Architected Materials for Venus Exploration</h2>
+    <p>Exploring Venus near the surface is one of the hardest environments in planetary science. Any long-duration platform must survive crushing pressure and extreme temperature while staying light enough to remain buoyant in the dense atmosphere.</p>
+    <p>The central idea of this work is to use architected ceramic lattices as structural thermal insulators. By combining analytical scaling laws, high-resolution finite element models, and shape optimization, the project studies silicon-carbide Kelvin cells with variable cross-section struts under Venus-like hydrostatic loading.</p>
+    <p>The optimized designs reveal a better-than-linear strength scaling mechanism and show that ceramic truss lattices can provide strength, low density, and low thermal conductivity at the same time. The outcome is a materials design strategy for buoyant aerial platforms intended for extreme planetary environments.</p>
   </section>
 
   <section class="research-project research-project--detail">
@@ -119,38 +113,30 @@ author_profile: true
     </figure>
   </section>
 
-  <section class="research-project">
-    <div class="research-project__image">
+  <section class="research-project research-project--detail">
+    <span class="research-project__tag">2D lattices | nodal geometry | stress concentration</span>
+    <h2>Nodal Geometry in 2D Triangular Lattices</h2>
+    <p>Triangular lattices are often treated as ideal pin- or beam-based networks, but real manufactured lattices are controlled by details at the nodes. A small fillet can change stress concentration, stiffness, buckling resistance, and the way load moves through the structure.</p>
+    <p>This research focuses on that overlooked design feature. High-fidelity finite element simulations are used to vary relative density and nodal fillet radius, revealing how local geometry influences global mechanical response in equilateral triangular lattices.</p>
+    <p>The work identifies regimes where fillets reduce stiffness, regimes where they improve stability, and configurations that significantly improve yield strength by reducing stress concentration. The final contribution is a practical design guideline for choosing nodal geometry rather than treating it as a manufacturing detail.</p>
+    <figure class="research-project__large-figure">
       <img src="/images/projects/triangular-lattice.svg" alt="Triangular lattice nodal geometry graphical abstract">
-    </div>
-    <div>
-      <span class="research-project__tag">2D lattices | nodal geometry | stress concentration</span>
-      <h2>Nodal Geometry in 2D Triangular Lattices</h2>
-      <p>Triangular lattices are often treated as ideal pin- or beam-based networks, but real manufactured lattices are controlled by details at the nodes. A small fillet can change stress concentration, stiffness, buckling resistance, and the way load moves through the structure.</p>
-      <p>This research focuses on that overlooked design feature. High-fidelity finite element simulations are used to vary relative density and nodal fillet radius, revealing how local geometry influences global mechanical response in equilateral triangular lattices.</p>
-      <p>The work identifies regimes where fillets reduce stiffness, regimes where they improve stability, and configurations that significantly improve yield strength by reducing stress concentration. The final contribution is a practical design guideline for choosing nodal geometry rather than treating it as a manufacturing detail.</p>
-    </div>
+    </figure>
   </section>
 
-  <section class="research-project">
-    <div class="research-project__image"></div>
-    <div>
-      <span class="research-project__tag">3D lattices | hierarchical beams | lightweight structures</span>
-      <h2>3D Hierarchical Truss Lattice Materials</h2>
-      <p>Lightweight lattice materials are powerful because they use geometry to create stiffness and strength from very little material. But conventional lattice members are often simple beams, which limits performance once buckling, bending, and material failure begin to compete.</p>
-      <p>This project replaces simple members with Warren-truss-inspired hierarchical beams. Axial and inclined struts are arranged in single- and double-laced patterns so compression, bending, and shear stiffness can be tuned separately inside the lattice member itself.</p>
-      <p>Analytical models and finite element simulations map the design space and failure boundaries. When these hierarchical beams are used inside Kelvin and octet lattices, they improve load-bearing capacity at low relative density and can push stiffness and strength beyond conventional first-order lattice scaling relationships.</p>
-    </div>
+  <section class="research-project research-project--detail">
+    <span class="research-project__tag">3D lattices | hierarchical beams | lightweight structures</span>
+    <h2>3D Hierarchical Truss Lattice Materials</h2>
+    <p>Lightweight lattice materials are powerful because they use geometry to create stiffness and strength from very little material. But conventional lattice members are often simple beams, which limits performance once buckling, bending, and material failure begin to compete.</p>
+    <p>This project replaces simple members with Warren-truss-inspired hierarchical beams. Axial and inclined struts are arranged in single- and double-laced patterns so compression, bending, and shear stiffness can be tuned separately inside the lattice member itself.</p>
+    <p>Analytical models and finite element simulations map the design space and failure boundaries. When these hierarchical beams are used inside Kelvin and octet lattices, they improve load-bearing capacity at low relative density and can push stiffness and strength beyond conventional first-order lattice scaling relationships.</p>
   </section>
 
-  <section class="research-project">
-    <div class="research-project__image"></div>
-    <div>
-      <span class="research-project__tag">Impact loading | composite slabs | FEM and machine learning</span>
-      <h2>Performance of Composite Metal Deck Slabs Under Impact Loading</h2>
-      <p>Composite metal deck slabs are common in building and infrastructure systems, yet their response to impact loading is difficult to predict. Sudden dynamic loads can activate local damage, nonlinear material response, and complex interaction between the concrete and steel deck.</p>
-      <p>This work began from a structural engineering question: how can impact performance be evaluated without relying only on costly physical testing? Finite element models were used to simulate free-drop impact loading and study the influence of slab geometry, material properties, and impact conditions.</p>
-      <p>The project then connects simulation with machine learning to support strength prediction and design evaluation. The result is a workflow for understanding and predicting the performance of composite slab systems subjected to dynamic loading.</p>
-    </div>
+  <section class="research-project research-project--detail">
+    <span class="research-project__tag">Impact loading | composite slabs | FEM and machine learning</span>
+    <h2>Performance of Composite Metal Deck Slabs Under Impact Loading</h2>
+    <p>Composite metal deck slabs are common in building and infrastructure systems, yet their response to impact loading is difficult to predict. Sudden dynamic loads can activate local damage, nonlinear material response, and complex interaction between the concrete and steel deck.</p>
+    <p>This work began from a structural engineering question: how can impact performance be evaluated without relying only on costly physical testing? Finite element models were used to simulate free-drop impact loading and study the influence of slab geometry, material properties, and impact conditions.</p>
+    <p>The project then connects simulation with machine learning to support strength prediction and design evaluation. The result is a workflow for understanding and predicting the performance of composite slab systems subjected to dynamic loading.</p>
   </section>
 </div>
