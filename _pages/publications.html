@@ -11,37 +11,6 @@ author_profile: true
 
 {% include base_path %}
 
-<style>
-  .publication__teaser {
-    float: right;
-    width: min(360px, 42%);
-    margin: 0.25rem 0 0.75rem 1.25rem;
-    border: 0;
-    background: #ffffff;
-  }
-
-  .publication__teaser img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
-  .archive__item::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  @media (max-width: 600px) {
-    .publication__teaser {
-      float: none;
-      width: 100%;
-      margin-left: 0;
-      margin-bottom: 1rem;
-    }
-  }
-</style>
-
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
